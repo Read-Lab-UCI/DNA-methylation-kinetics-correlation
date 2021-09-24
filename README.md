@@ -4,7 +4,9 @@
 
 - `MLERatesInference.m` is used for inferring site-specific remethylation rates via maximum likelihood estimation in this paper.
 
-- The `SimulationCodes` folder include the stochastic models and input data for Distributive model and Processive model(based on 1D diffusion) used in this paper.
+- The `SimulationCodes/Distributive` and `SimulationCodes/Processive` folder include the stochastic models and input data for Distributive model and Processive model(based on 1D diffusion) used in this paper.
+
+- The `SimulationCodes/kResampling` includes the code for calculating the resampling kinetic rates used as \phi in Equation 7 in the paper, and the Total correlation in Equation 7 comes from the correlation of kinetics rates using the following data.
 
 ### Data
 
