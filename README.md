@@ -1,1 +1,2 @@
-# Read-Lab-UCI-DNA-methylation-kinetics-correlation
+# Locally-correlated kinetics of post-replication DNA methylation reveals processivity and region-specificity in DNA methylation maintenance
+
