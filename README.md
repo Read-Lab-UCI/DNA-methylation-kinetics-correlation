@@ -1,5 +1,5 @@
 ## Locally-correlated kinetics of post-replication DNA methylation reveals processivity and region-specificity in DNA methylation maintenance
-
+BioRxiv: https://www.biorxiv.org/content/10.1101/2021.09.28.462223v1
 ### Codes
 
 - `MLERatesInference.m` is used for inferring site-specific remethylation rates via maximum likelihood estimation in this paper.
