@@ -15,8 +15,7 @@ BioRxiv: https://www.biorxiv.org/content/10.1101/2021.09.28.462223v2
 - Inferred kinetic rates of DNA methylation maintenance: The kinetic rates used in the paper are stored at Google Drive because it is too large to store in Github. https://drive.google.com/drive/folders/1xJ8E6BY1ar4jIcYk62x4wjvA56LjLWyE?usp=sharing
 
   The files of inferred kinetic rates are stored in .bed format and can be open and edit by any text editor. Columns in each file are Tab-separated and has the following fields:
-
-	column number: content, meaning
+  column number: content, meaning
 	1st: chromosome, the name of the chromosome
 	2nd: start, the starting position of the feature in the chromosome 
 	3rd: end, the ending position of the feature in the chromosome 
