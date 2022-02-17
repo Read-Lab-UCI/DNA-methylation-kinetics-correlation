@@ -20,10 +20,10 @@ The files of inferred kinetic rates are stored in .bed format and can be open an
 	1st: chromosome, the name of the chromosome
 	2nd: start, the starting position of the feature in the chromosome 
 	3rd: end, the ending position of the feature in the chromosome 
-	4th: WGBS, the methylation fraction of the CpG in WGBS data from [GEO:GSM1112841](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1112841)
+	4th: WGBS, the methylation fraction of the CpG in WGBS data from GEO:GSM1112841(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1112841)
 	5th: k, the estimated kinetic rate of remethylation post-replication using maximum likelihood estimation (MLE)
 	6th: f, the estimated steady state methylation fraction (steady-state fraction of cells in population mehylated at that site)
 	7th: CpGd, the local CpG density surrounding a given site, which is calculated by the number of neighboring CpGs within a 500bp window
-	8th: chromatin_state, the H1-hESC chromatin state at the CpG site using HMM from [ENCODE/Broad](https://www.genome.ucsc.edu/cgi-bin/hgTables?db=hg19&hgta_group=regulation&hgta_track=wgEncodeBroadHmm&hgta_table=wgEncodeBroadHmmH1hescHMM&hgta_doSchema=describe+table+schema)
-	9th: DNase_level, the DNase level which is used to measure the chromatin accessibility at the CpG site retrieved from [ENCODE/OpenChrom(Duke University)](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeOpenChromDnase/)
-	10th: NOS, Neucleo Occupancy Score at the CpG site obtained from [GSM1194220](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1194220)
+	8th: chromatin_state, the H1-hESC chromatin state at the CpG site using HMM from ENCODE/Broad(https://www.genome.ucsc.edu/cgi-bin/hgTables?db=hg19&hgta_group=regulation&hgta_track=wgEncodeBroadHmm&hgta_table=wgEncodeBroadHmmH1hescHMM&hgta_doSchema=describe+table+schema)
+	9th: DNase_level, the DNase level which is used to measure the chromatin accessibility at the CpG site retrieved from ENCODE/OpenChrom(Duke University)(http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeOpenChromDnase/)
+	10th: NOS, Neucleo Occupancy Score at the CpG site obtained from GSM1194220(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1194220)
